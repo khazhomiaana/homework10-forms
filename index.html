@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+    <script src="https://kit.fontawesome.com/9bd2b63af3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+    <div class="container">
+        <form class="form1">
+    
+            <div class="book-form">
+                <label class="book-labels" for="datefrom"> check in date </label>
+                <input class="book-textbox" type="date" id="datefrom" name="datefrom">
+            </div>
+            <div class="book-form">
+                <label class="book-labels" for="dateto"> check out date </label>
+                <input class="book-textbox" type="date" id="dateto" name="dateto">
+            </div>
+            <div class="book-form">
+                <label class="book-labels" for="room"> Rooms </label>
+                <input class="book-textbox" type="text" id="room" name="room" placeholder="Enter Room Type">
+                
+            </div>
+            <button class="book-button" type="submit"> Submit <i class="fas fa-chevron-circle-right"> </i> </button>
+            
+    </form>
+    </div>
+</section>
+<section>
+    <div class="container2">
+        <div class="text-wraper">
+            <h2 class="title1">Contact</h2>
+            <h4 class="title2">Contact us to get free support</h4>
+        </div>
+
+        <form class="form2">
+            <div>
+                <textarea class="textarea-block" id="review" placeholder="Please type your message..."></textarea>
+            </div>
+
+            <div>
+                <div>
+                    <input class="input-block" type="text" id="subject" name="subject" placeholder="Enter Subject" required>
+                </div>
+                <div>
+                    <input class="input-block" type="text" id="fullname" name="fullname" placeholder="Enter Your Full Name" required>
+                </div>
+                <div>
+                    <input class="input-block" type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                </div>
+                <button class="button2" type="submit"> Send <i class="fas fa-chevron-circle-right"> </i></button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section>
+    <div class="container3">
+        <div class="contact-info">
+            <div class="c-info">
+                <div class="fav-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h4 class="title3"> Email </h4>
+                <p class="text"> example@gmail.com </p>
+                <p class="text"> example@outloock.com </p>
+            </div>
+            <div class="c-info">
+                <div class="fav-icon">
+                    <i class="fas fa-phone-volume"></i>
+                </div>
+                <h4 class="title3"> Phone </h4>
+                <p class="text">+995 591 55 55 55 </p>
+                <p class="text">+995 577 77 77 77 </p>
+            </div>
+            <div class="c-info">
+            <div class="fav-icon">
+                <i class="fas fa-map-marked"></i>
+            </div>
+                <h4 class="title3"> Location </h4>
+                <p class="text"> Tbilisi </p>
+                <p class="text"> Batumi </p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
